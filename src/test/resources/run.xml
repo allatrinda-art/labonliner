@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test" verbose="1" >
+    <parameter name="producerName" value="Samsung"></parameter>
+    <parameter name="price" value="1500"></parameter>
+    <parameter name="screenResolution" value="1920x1080 (Full HD)"></parameter>
+    <parameter name="diagonalMin" value="40"></parameter>
+    <parameter name="diagonalMax" value="50"></parameter>
+    <test name="test" >
+        <classes>
+            <class name="com.onliner.FindItemsTest"/>
+        </classes>
+    </test>
+</suite>
